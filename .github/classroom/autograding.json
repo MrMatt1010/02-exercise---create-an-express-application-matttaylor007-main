@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test",
+      "setup": "npm install && npm install cypress@9.7.0 start-server-and-test",
+      "run": "npx start-server-and-test start http-get://localhost:3000/movies \"cypress run\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": null
+    }
+  ]
+}
